@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/not-bored/app/src/main/res/layout/activity_activities.xml" value="0.1879432624113475" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/not-bored/app/src/main/res/layout/activity_details.xml" value="0.1879432624113475" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.19305555555555556" />
+        <entry key="app/src/main/res/drawable/ic_baseline_shuffle_24.xml" value="0.19305555555555556" />
+        <entry key="app/src/main/res/layout/activity_activities.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1787037037037037" />
+        <entry key="app/src/main/res/layout/activity_terms_and_conditions.xml" value="0.2550335570469799" />
+        <entry key="app/src/main/res/layout/item_activities.xml" value="0.3871763255240444" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
