@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/not-bored/app/src/main/res/layout/activity_activities.xml" value="0.1879432624113475" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/not-bored/app/src/main/res/layout/activity_details.xml" value="0.1879432624113475" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/not-bored/app/src/main/res/layout/activity_details.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/not-bored/app/src/main/res/layout/activity_main.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/not-bored/app/src/main/res/layout/activity_terms_and_conditions.xml" value="0.38697916666666665" />
         <entry key="app/src/main/res/drawable/border.xml" value="0.19305555555555556" />
         <entry key="app/src/main/res/drawable/ic_baseline_shuffle_24.xml" value="0.19305555555555556" />
         <entry key="app/src/main/res/layout/activity_activities.xml" value="0.25" />
