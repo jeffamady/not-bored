@@ -1,14 +1,10 @@
 package com.amadydev.notbored.viewmodel
 
-import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.amadydev.notbored.databinding.ItemActivitiesBinding
 import com.amadydev.notbored.model.ActivitiesModel
-import com.amadydev.notbored.view.DetailsActivity
 
 class ActivityAdapter(
     private val activities: List<ActivitiesModel>,

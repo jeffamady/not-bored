@@ -1,4 +1,4 @@
-package com.amadydev.notbored.view
+package com.amadydev.notbored.ui.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

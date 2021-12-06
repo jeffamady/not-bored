@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NotBored">
         <activity
-            android:name=".view.DetailsActivity"
+            android:name=".ui.details.DetailsActivity"
             android:exported="true" />
         <activity
-            android:name=".view.ActivitiesActivity"
+            android:name=".ui.activity.ActivitiesActivity"
             android:exported="true" />
         <activity
-            android:name=".view.TermsAndConditionsActivity"
+            android:name=".ui.home.TermsAndConditionsActivity"
             android:exported="true" />
         <activity
-            android:name=".view.MainActivity"
+            android:name=".ui.home.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

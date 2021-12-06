@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_a"
-    tools:context=".view.DetailsActivity">
+    tools:context=".ui.details.DetailsActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
@@ -46,7 +46,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvInfo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -69,8 +69,11 @@
         android:fontFamily="sans-serif-black"
         android:text="@string/participants"
         android:textSize="20sp"
+        android:drawablePadding="4dp"
+        app:drawableStartCompat="@drawable/ic_baseline_person_24"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/tvInfo"
+         />
 
     <TextView
         android:id="@+id/tvParticipant"
@@ -87,6 +90,8 @@
 
     <TextView
         android:id="@+id/textView5"
+        android:drawablePadding="4dp"
+        app:drawableStartCompat="@drawable/ic_baseline_attach_money_24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -111,6 +116,8 @@
 
     <TextView
         android:id="@+id/tvRandom"
+        android:drawablePadding="4dp"
+        app:drawableStartCompat="@drawable/ic_baseline_format_list_bulleted_24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
