@@ -4,7 +4,9 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.isVisible
+import com.amadydev.notbored.R
 import com.amadydev.notbored.databinding.ActivityDetailsBinding
 import com.amadydev.notbored.model.Activities
 import com.amadydev.notbored.model.ActivitiesModel
@@ -14,6 +16,7 @@ class DetailsActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailsBinding
     override fun onCreate(savedInstanceState: Bundle?) {
+        this.window.statusBarColor = ResourcesCompat.getColor(resources, R.color.color_b, null)
         super.onCreate(savedInstanceState)
         binding = ActivityDetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)

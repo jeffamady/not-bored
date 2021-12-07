@@ -1,10 +1,13 @@
 package com.amadydev.notbored.ui.activity
 
 import android.content.Intent
+import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.amadydev.notbored.R
 import com.amadydev.notbored.databinding.ActivityActivitiesBinding
 import com.amadydev.notbored.model.Activities
 import com.amadydev.notbored.model.ActivitiesModel
@@ -22,6 +25,7 @@ class ActivitiesActivity : AppCompatActivity(), OnActivityClickListener {
         binding = ActivityActivitiesBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initUI()
+        this.window.statusBarColor = ResourcesCompat.getColor(resources, R.color.color_b, null)
     }
 
     private fun initUI() {
@@ -42,7 +46,7 @@ class ActivitiesActivity : AppCompatActivity(), OnActivityClickListener {
     }
 
     override fun onActivityItemClicked(position: Int) {
-        goToDetails(position,false)
+        goToDetails(position, false)
     }
 
     private fun goToDetails(position: Int, random: Boolean) {
